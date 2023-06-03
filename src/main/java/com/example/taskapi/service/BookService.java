@@ -13,7 +13,7 @@ public class BookService {
     private final List<Book> books = new ArrayList<>();
 
 
-    public List<Book> getBooks() {
+    public List<Book> getAllBooks() {
         log.info("GET/books-getting all books");
         return books;
     }
